@@ -1,0 +1,53 @@
+quantum-iort-framework/
+│
+├── README.md
+├── requirements.txt
+├── LICENSE
+├── CITATION.cff
+├── .gitignore
+│
+├── src/
+│   ├── __init__.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── quantum_trust.py
+│   │   ├── consensus.py
+│   │   ├── safety_verifier.py
+│   │   └── nodes.py
+│   ├── security/
+│   │   ├── __init__.py
+│   │   ├── holographic_storage.py
+│   │   ├── anomaly_detection.py
+│   │   └── cross_layer.py
+│   └── simulation/
+│       ├── __init__.py
+│       ├── simulator.py
+│       ├── scenarios.py
+│       └── analysis.py
+│
+├── experiments/
+│   ├── __init__.py
+│   ├── run_experiments.py
+│   ├── validation.py
+│   └── results/
+│       ├── experimental_data.json
+│       └── performance_metrics.csv
+│
+├── notebooks/
+│   ├── 01_quantum_trust_demo.ipynb
+│   ├── 02_consensus_analysis.ipynb
+│   ├── 03_safety_verification.ipynb
+│   └── 04_deployment_scenarios.ipynb
+│
+├── docs/
+│   ├── architecture.md
+│   ├── api_reference.md
+│   ├── deployment_guide.md
+│   └── research_paper.md
+│
+└── tests/
+    ├── __init__.py
+    ├── test_quantum_trust.py
+    ├── test_consensus.py
+    ├── test_safety.py
+    └── test_integration.py
